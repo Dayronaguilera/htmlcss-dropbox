@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
 }
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+.relative{
+    position: relative;
+}
 
 
 
@@ -14,8 +21,7 @@
     clear: both;
 }
 .container{
-    width: 1200px;
-    margin: 0 auto;
+    width: 100%;
     border: 1px black solid;
 }
 .bar-nav{
@@ -35,12 +41,24 @@
 .container-jumbo{
     background-color: rgb(108, 162, 233);
 }
+
 .center-jumbo{
-    width: 700px;
-
+    width: 80%;
+    margin: 0 auto;
+    border: 1px black solid;
+    
 }
-
-.img-jumbo, .text-jumbo{
+.title{
+    margin: auto;
+    font-size: 30px ;
+}
+.text-jumbo{
+    width: 48%;
+    font-size: 15px;
+    padding-left: 80px;
+    
+}
+.img-jumbo{
     width: 50%;
 }
 

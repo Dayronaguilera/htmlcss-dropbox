@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+
+
+/* start utility class */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container{
+    border: 1px black solid;
+}
+.fl-left{
+    float: left;
+}
+.fl-right{
+    float: right;
+}
+
+
+
+
+/* end utility class */

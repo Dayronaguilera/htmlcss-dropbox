@@ -3,14 +3,6 @@
     margin: 0;
     padding: 0;
 }
-body{
-    width: 1200px;
-    margin: 0 auto;
-}
-.relative{
-    position: relative;
-}
-
 
 
 /* start utility class */
@@ -21,11 +13,21 @@ body{
     clear: both;
 }
 .container{
-    width: 100%;
-    border: 1px black solid;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+button{
+    background-color: rgb(54, 95, 230);
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    border: none;
+}
+
+/* end utility class */
+
 .bar-nav{
-    border: 1px black solid;
+    padding: 5px;
 }
 .fl-left{
     float: left;
@@ -36,35 +38,42 @@ body{
 .bar-text > li{
     display: inline-block;
     list-style: none;
-    margin: 5px 8px;
+    margin: 5px 10px;
 }
 .container-jumbo{
-    background-color: rgb(108, 162, 233);
+    background-color: rgb(124, 167, 223);
 }
-
-.center-jumbo{
-    width: 80%;
-    margin: 0 auto;
-    border: 1px black solid;
+.centro{
+    margin-left: 80px;
+    padding-left: 70px;
+    width: 90%;
+}
     
-}
 .title{
-    margin: auto;
+    padding-left: 70px;
+    padding-top: 20px;
     font-size: 30px ;
 }
 .text-jumbo{
-    width: 48%;
+    padding-left: 70px;
+    width: 30%;
     font-size: 15px;
-    padding-left: 80px;
+    padding-top: 30px;
     
 }
 .img-jumbo{
+    padding-top: 30px;
     width: 50%;
+    margin-bottom: -50px;
+    padding-left: 40px;
+}
+.arrow{
+  font-size: 20px;
+  
 }
 
 
 
 
 
-/* end utility class */
 

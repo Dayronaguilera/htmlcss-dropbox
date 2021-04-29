@@ -1,18 +1,24 @@
 *{
     box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
 
 
 /* start utility class */
+
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
 .container{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px black solid;
+}
+.bar-nav{
     border: 1px black solid;
 }
 .fl-left{
@@ -21,14 +27,26 @@
 .fl-right{
     float: right;
 }
+.bar-text > li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 8px;
+}
+.container-jumbo{
+    background-color: rgb(108, 162, 233);
+}
+.center-jumbo{
+    width: 700px;
+
+}
+
+.img-jumbo, .text-jumbo{
+    width: 50%;
+}
+
 
 
 
 
 /* end utility class */
 
-
-.nav > li{
-    display: inline-block;
-    list-style: none;
-}

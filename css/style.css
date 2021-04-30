@@ -122,8 +122,23 @@ button{
 }
 
 /* start section 3 */
-
-
+.section-3{
+    width: 70%;
+    margin: 0 auto;
+}
+.img-section-3{
+    width: calc(100% / 2 );
+    
+}
+.text-section-3{
+    width: calc(100% / 2 );
+    position: relative;
+}
+.container-section-3{
+    border: 1px black solid;
+    top: 50%;
+    left: 30%;
+}
 
 
 

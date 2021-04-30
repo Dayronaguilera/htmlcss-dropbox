@@ -5,7 +5,6 @@
     padding: 0;
 }
 
-
 /* start utility class */
 
 .clearfix::after{
@@ -76,10 +75,10 @@ button{
     margin-top: 80px;
 }
 .section-1{
-    width: 65%;
+    width: 70%;
     margin: 0 auto;
 }
-.title-main{
+.title-section-1{
     width: 100%;
     font-size: 40px;
 
@@ -89,8 +88,8 @@ button{
     margin-bottom: 10px;
 }
 .blocco{
-    width:  calc(100% / 3 - 40px);
-    margin: 20px;
+    width:  calc(100% / 3 - 20px);
+    margin: 10px;
     border: 1px lightgrey solid;
 
 }
@@ -100,16 +99,29 @@ button{
     text-align: center;
     border-bottom: 1px lightgrey solid;
 }
-
-
 .ul-box> li{
+    margin-left: 15px;
     list-style: none;
-    margin: 5px 10px;
+    font-size: 14px;
 }
 .bottoni-main{
-    width: 100%;
+    width: 90%;   
+}
+/* start section 2 */
+.section-2{
+    width: 70%;
+    margin: 0 auto; 
+}
+.box-section-2{
+    height: 150px;
+    margin: 30px 10px;
+    border: 1px lightgrey solid;
+}
+.button-section-2{
+    margin: 10px 10px 0px 0px;
 }
 
+/* start section 3 */
 
 
 

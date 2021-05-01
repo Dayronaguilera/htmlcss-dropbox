@@ -12,8 +12,7 @@
     display: table;
     clear: both;
 }
-.container, main{
-    max-width: 1200px;
+.container{
     margin: 0 auto;
 }
 button{
@@ -23,6 +22,13 @@ button{
     padding: 7px;
     border: none;
 }
+.title-section{
+    width: 100%;
+    font-size: 40px;
+    margin-top: 60px;
+    padding-left: 5px;
+}
+
 
 /* end utility class */
 
@@ -70,22 +76,16 @@ button{
   font-size: 25px;
 }
 
-/* inizio main section 1 */
-.container-main{ 
-    margin-top: 80px;
-}
-.section-1{
-    width: 70%;
+/* start section 1 */
+.container-main{
+    max-width: 70%;   
     margin: 0 auto;
 }
-.title-section-1{
-    width: 100%;
-    font-size: 40px;
 
-}
 .bottoni{
     margin: 10px;
     margin-bottom: 10px;
+    padding-left: 5x;
 }
 .blocco{
     width:  calc(100% / 3 - 20px);
@@ -108,10 +108,7 @@ button{
     width: 90%;   
 }
 /* start section 2 */
-.section-2{
-    width: 70%;
-    margin: 0 auto; 
-}
+
 .box-section-2{
     height: 150px;
     margin: 30px 10px;
@@ -122,25 +119,155 @@ button{
 }
 
 /* start section 3 */
-.section-3{
-    width: 70%;
-    margin: 0 auto;
-}
+
 .img-section-3{
     width: calc(100% / 2 );
+    padding-left: 11px;
     
 }
 .text-section-3{
     width: calc(100% / 2 );
-    position: relative;
+    height: 100%;
 }
+
 .container-section-3{
-    border: 1px black solid;
-    top: 50%;
-    left: 30%;
+    padding: 80px;
+    position: relative; 
+}
+
+/* start section 4 */
+
+.container-section-4{
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
+    height: 500px;
+}
+.cont-img-section-4{
+    text-align: center;
+}
+.img-section-4{
+    width: 80%;
+    margin-bottom: 10px;
+}
+.text-section-4{
+    padding: 0px 30px;
+}
+/* start section 5 */
+.color-box{
+    width: calc(100% / 3);
+    height: 400px;
+    margin-top: 30px;
+}
+#box{
+    width: calc(100% / 2);
+    height: 50%;
 }
 
 
+/* box colorati */
+.box-son-1{
+    background-color:rgb(162,211,155);
+    text-align: center;
+}
+.img-box-1{
+    width: 70%;  
+    filter: invert(); 
+    position: relative;
+    top: 40%;
+}
 
-
-
+.box-son-2{
+    background-color:rgb(97,8,43);
+    text-align: center;
+}
+.img-box-2{
+    width: 50%;  
+    filter: invert(); 
+    position: relative;
+    top: 30%;
+}
+.box-son-3{
+    background-color:rgb(0,147,206);
+    text-align: center;
+}
+.img-box-3{
+    width: 70%;  
+    filter: invert(); 
+    position: relative;
+    top: 40%;
+}
+.box-son-4{
+    background-color:rgb(255,28,28);
+    text-align: center;
+}
+.img-box-4{
+    width: 50%;  
+    filter: invert(); 
+    position: relative;
+    top: 30%;
+}
+.box-son-5{
+    background-color: rgb(213,0,31);
+    text-align: center;
+}
+.img-box-5{
+    width: 75%;  
+    filter: invert(); 
+    position: relative;
+    top: 35%;
+}
+.box-son-6{
+    background-color:rgb(180,208,231);
+    text-align: center;
+}
+.img-box-6{
+    width: 65%;  
+    filter: invert(); 
+    position: relative;
+    top: 55%;
+}
+.box-son-7{
+    background-color:rgb(13,36,129);
+    text-align: center;
+}
+.img-box-7{
+    width: 70%;  
+    filter: invert(); 
+    position: relative;
+    top: 40%;
+}
+.box-son-8{
+    background-color:rgb(255,216,48);
+    text-align: center;
+}
+.img-box-8{
+    width: 50%;  
+    filter: invert(); 
+    position: relative;
+    top: 30%;
+}
+/* start section 5 */
+.container-section-5{
+    width: 100%;
+    height: 200px;
+    background-color: turquoise;   
+}
+.info-section-5{
+    width: 70%;
+    margin: 0 auto; 
+}
+.text-section-5{
+    display: inline-block;
+    font-size: 40px;
+    color: rgb(97,8,43);
+    line-height: 40px;
+    margin-top: 70px;
+}
+.button{
+    background-color: whitesmoke;
+    color: black;
+    margin-left: 200px;
+    margin-top: 70px;
+    font-size: 20px; 
+    vertical-align: top;   
+}

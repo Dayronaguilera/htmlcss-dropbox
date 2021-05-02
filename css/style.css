@@ -152,6 +152,7 @@ button{
 .text-section-4{
     padding: 0px 30px;
 }
+
 /* start section 5 */
 .color-box{
     width: calc(100% / 3);
@@ -175,6 +176,27 @@ button{
     position: relative;
     top: 40%;
 }
+.img-no-color{
+    width: 25%;
+    position: relative;
+    top: 7%;
+    left: 6%;
+}
+.hr-no-color{
+    width: 10%;
+    position: relative;
+    top: 12%;
+    left: 7%;
+    
+}
+.text-no-color{
+    font-size: 15px;
+    width: 91%;
+    position: relative;
+    top: 25%;
+    left: 6%;
+}
+
 
 .box-son-2{
     background-color:rgb(97,8,43);
@@ -246,17 +268,17 @@ button{
     position: relative;
     top: 30%;
 }
-/* start section 5 */
-.container-section-5{
+/* start section 6 */
+.container-section-6{
     width: 100%;
     height: 200px;
     background-color: turquoise;   
 }
-.info-section-5{
+.info-section-6{
     width: 70%;
     margin: 0 auto; 
 }
-.text-section-5{
+.text-section-6{
     display: inline-block;
     font-size: 40px;
     color: rgb(97,8,43);
@@ -270,4 +292,41 @@ button{
     margin-top: 70px;
     font-size: 20px; 
     vertical-align: top;   
+}
+/* start section 6 */
+.container-section-7{
+    width: 70%;
+    margin: 0 auto;
+}
+.arrow{
+    font-size: 15px;
+    margin-right: 50px;
+}
+/* start footer */
+#container-footer{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    margin-top: 50px;
+    color: rgb(241, 241, 241);   
+}
+.list-footer{
+    position: relative;
+    top: 20%;
+    left: 12%;
+    padding-left: 40px;
+}
+.ul-footer{
+    list-style: none;
+}
+.nav-footer{
+    width: 9%;
+    border-top: 1px white solid;
+    position: relative;
+    top: 60%;
+    left: 15%;
+}
+.it{
+    position: relative;
+    bottom: 100px;
 }

@@ -25,7 +25,8 @@ button{
 .title-section{
     width: 100%;
     font-size: 40px;
-    margin-top: 60px;
+    margin-top: 80px;
+    margin-bottom: 40px;
     padding-left: 5px;
 }
 
@@ -67,10 +68,11 @@ button{
     
 }
 .img-jumbo{
-    height: 350px;
+    height: 400px;
     padding-top: 20px;
-    margin-bottom: -50px;
+    margin-bottom: -60px;
     padding-left: 40px;
+    margin-top: 25px;
 }
 .arrow{
   font-size: 25px;

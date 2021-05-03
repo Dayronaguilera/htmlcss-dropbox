@@ -18,8 +18,8 @@
 button{
     background-color: rgb(54, 95, 230);
     color: white;
-    font-size: 10px;
-    padding: 7px;
+    font-size: 15px;
+    padding: 6px;
     border: none;
 }
 .title-section{
@@ -87,25 +87,59 @@ button{
     margin-bottom: 10px;
     padding-left: 5x;
 }
+.button-left{
+    margin-left: 20px;
+}
 .blocco{
     width:  calc(100% / 3 - 20px);
     margin: 10px;
     border: 1px lightgrey solid;
-
 }
-.title-box> h3{
+.colonna{
+    padding: 20px;
+    line-height: 30px;
+}
+.title-box{
     height: 40px;
     padding-top: 5px;
+    padding-left: 90px;
     text-align: center;
     border-bottom: 1px lightgrey solid;
 }
-.ul-box> li{
-    margin-left: 15px;
+.icon-title{
+    width: 25px;
+}
+
+.ul-box{
     list-style: none;
+    font-size: 15px;
+    line-height: 30px;
+}
+.icon-folder{
+    width: 15px;
+    margin: 5px;
+}
+.icon-pen{
+    width: 30px;
+    margin-top: 15px;
+}
+.text-list-2{
+    width: 88%;
     font-size: 14px;
+    line-height: 20px;
+    margin: 11px 0px;
+}
+.text-list{
+    width: 80%;
+    line-height: 20px;
 }
 .bottoni-main{
-    width: 90%;   
+    width: 100%;   
+}
+.ul-box li:first-child{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 /* start section 2 */
 
@@ -114,8 +148,17 @@ button{
     margin: 30px 10px;
     border: 1px lightgrey solid;
 }
+.list-box-section-2{
+    width: 78%;
+    line-height: 30px;
+    font-size: 14px;
+    margin: 10px;
+
+}
 .button-section-2{
-    margin: 10px 10px 0px 0px;
+    width: 19%;
+    font-size: 40px;
+    margin-right: 7px;
 }
 
 /* start section 3 */
